@@ -85,3 +85,4 @@ local_settings.py
 
 .env
 venv/
+.cph/
