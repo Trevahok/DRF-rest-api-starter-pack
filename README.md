@@ -52,7 +52,7 @@ class PostSerializer(
         model = Post
         fields = "__all__"
 ```
-- (Optional) Add filtering rules. 
+- (Optional) Add filtering rules. More about it at: `https://django-filter.readthedocs.io/` 
 ```py
 class PostFilter(filters.FilterSet):
     search = filters.NumberFilter(field_name="title", lookup_expr='in')
